@@ -29,6 +29,14 @@ $columns: 12;
       }
     }
 
+    .hidden-#{$name} {
+      display: none;
+    }
+
+    .visible-#{$name} {
+      display: initial;
+    }
+
     .first-#{$name} {
       order: -1;
     }
